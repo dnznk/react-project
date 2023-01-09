@@ -1,9 +1,9 @@
 function Footer() {
   return (
     <>
-      <footer>
+      <footer style={{ display: "flex" }}>
         <div>
-          <ul>
+          <ul style={{ listStyle: "none" }}>
             <li>Doormat Navigation</li>
             <li>
               <a>Home</a>
@@ -26,7 +26,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <ul>
+          <ul style={{ listStyle: "none" }}>
             <li>Contact</li>
             <li>
               <a>Address</a>
@@ -40,7 +40,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <ul>
+          <ul style={{ listStyle: "none" }}>
             <li>Social Media Links</li>
             <li>
               <a>Instagram</a>
