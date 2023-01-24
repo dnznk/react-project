@@ -4,19 +4,9 @@ function Nav() {
   return (
     <>
       <nav>
-        <div
-          className="navbar"
-          style={{ display: "flex", justifyContent: "space-between" }}
-        >
+        <div className="navbar">
           <img src={Logo} alt="Logo"></img>
-          <ul
-            className="navbar-list"
-            style={{
-              display: "flex",
-              listStyle: "none",
-              justifyContent: "space-between",
-            }}
-          >
+          <ul className="navbar-list">
             <li>
               <a>Home</a>
             </li>
