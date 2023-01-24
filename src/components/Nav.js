@@ -5,8 +5,10 @@ function Nav() {
     <>
       <nav>
         <div className="navbar">
-          <img src={Logo} alt="Logo"></img>
           <ul className="navbar-list">
+            <li>
+              <img src={Logo} alt="Logo"></img>
+            </li>
             <li>
               <a>Home</a>
             </li>
