@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <footer style={{ display: "flex" }}>
+      <footer className="footer-container">
         <div>
           <ul style={{ listStyle: "none" }}>
             <li>Doormat Navigation</li>
