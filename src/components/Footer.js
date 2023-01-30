@@ -4,7 +4,9 @@ function Footer() {
       <footer className="footer-container">
         <div>
           <ul style={{ listStyle: "none" }}>
-            <li>Doormat Navigation</li>
+            <li>
+              <b>Doormat Navigation</b>
+            </li>
             <li>
               <a>Home</a>
             </li>
@@ -27,7 +29,9 @@ function Footer() {
         </div>
         <div>
           <ul style={{ listStyle: "none" }}>
-            <li>Contact</li>
+            <li>
+              <b>Contact</b>
+            </li>
             <li>
               <a>Address</a>
             </li>
@@ -41,7 +45,9 @@ function Footer() {
         </div>
         <div>
           <ul style={{ listStyle: "none" }}>
-            <li>Social Media Links</li>
+            <li>
+              <b>Social Media Links</b>
+            </li>
             <li>
               <a>Instagram</a>
             </li>
